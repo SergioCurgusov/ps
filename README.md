@@ -28,10 +28,10 @@
 
 Смотрим, что она показывает:
 
-root@sergio-Z87P-D3:/home/sergio# ps ax | head -3
-    PID TTY      STAT   TIME COMMAND
-      1 ?        Ss     0:00 /sbin/init splash
-      2 ?        S      0:00 [kthreadd]
+"root@sergio-Z87P-D3:/home/sergio# ps ax | head -3"
+    "PID TTY      STAT   TIME COMMAND"
+    "  1 ?        Ss     0:00 /sbin/init splash"
+      "2 ?        S      0:00 [kthreadd]"
 
 Т.е. нам нужны колонки: PID, TTY, STAT, TIME, COMMAND
 
